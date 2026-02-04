@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", "Noto Sans SC", system-ui, sans-serif;
+}
+
+button {
+  font-family: inherit;
+}
+
+.range-input {
+  accent-color: #38bdf8;
+}
